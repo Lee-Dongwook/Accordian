@@ -1,0 +1,37 @@
+html, body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+.panel-faq-contianer{
+    border: 0px solid red;
+    margin-bottom: -16px;
+}
+
+.panel-faq-title{
+    color: #00EAEA;
+    cursor: pointer;
+}
+
+#btn-all-close{
+    margin-bottom: 10px;
+    background-color: #726996;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 25px;
+    float: right;
+}
+
+#btn-all-close:hover{
+    background-color: yellow;
+    color: black;
+    transition: all 0.35s;
+}
+
+.active {
+    display: block;
+    height: 300px;
+}
+
